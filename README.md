@@ -8,6 +8,9 @@ DOMAIN : EMBEDDED SYSTEM
 
 OVERVIEW OF THE PROJECT
 
+![Screenshot (135)](https://github.com/user-attachments/assets/72c7d9d6-8cd5-4e23-8bb4-aa362d43654d)
+
+
 A simple LED blinking project involves programming a microcontroller (like an Arduino or Raspberry Pi) to turn an LED on and off at regular intervals. The main components include:
 
 1. LED (Light Emitting Diode): The visual indicator that will blink.
