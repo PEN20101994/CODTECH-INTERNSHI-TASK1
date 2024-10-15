@@ -1,0 +1,21 @@
+/*An LED blinking code is a simple embedded systems program used to toggle the state of an LED (Light Emitting Diode) on and off at regular intervals. The program controls the timing and frequency of the LED's blinking, typically using a microcontroller such as an Arduino, PIC, or STM32.
+
+Basic Description:
+
+Microcontroller Setup: The microcontroller pin connected to the LED is configured as an output.
+
+Loop Function: The code runs in a continuous loop, turning the LED on, waiting for a specific time (delay), then turning it off, and waiting again.
+
+Delay Function: The delay between the ON and OFF states controls the blinking spee*/
+void setup()
+{
+  pinMode(LED_BUILTIN, OUTPUT);
+}
+
+void loop()
+{
+  digitalWrite(LED_BUILTIN, HIGH);
+  delay(1000); // Wait for 1000 millisecond(s)
+  digitalWrite(LED_BUILTIN, LOW);
+  delay(1000); // Wait for 1000 millisecond(s)
+}
